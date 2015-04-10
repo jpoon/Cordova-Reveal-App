@@ -9,7 +9,7 @@
 
     function setupCamera() {
         // camera
-        document.querySelector("#photoCanvas").addEventListener("touchend", startCamera, false);
+        document.querySelector("#photoCanvas").addEventListener("click", startCamera, false);
 
         var cameraPopoverHandle;
 
