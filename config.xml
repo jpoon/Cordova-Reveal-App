@@ -11,5 +11,6 @@
   <preference name="Orientation" value="landscape" />
   <vs:plugin name="org.apache.cordova.camera" version="0.3.2" />
   <vs:plugin name="org.apache.cordova.device" version="0.2.12" />
+  <vs:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
   <vs:platformSpecificValues />
 </widget>
