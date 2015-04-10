@@ -243,6 +243,7 @@
     <Content Include="reveal\assets\author\jason.jpg" />
     <Content Include="reveal\assets\icons\bbc.png" />
     <Content Include="reveal\assets\icons\halowaypoint.jpg" />
+    <Content Include="reveal\assets\icons\ign.jpeg" />
     <Content Include="reveal\assets\icons\wikipedia.png" />
     <Content Include="reveal\assets\mslogo.png" />
     <Content Include="reveal\assets\patternbg.png" />

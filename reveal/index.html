@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 	<head>
@@ -21,7 +21,9 @@
 		<link rel="stylesheet" href="lib/css/github.css">
 
 		<!-- Icons -->
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -51,7 +53,9 @@
 
 					<img data-src="assets/author/jason.jpg" width="100px" />
 					<img data-src="assets/author/felix.png" width="100px" />
-					<p><small>Jason Poon & Felix Riesenberg<br /><i>Open Source Developers, Microsoft</i></small></p>
+                    <br />
+					<small>Jason Poon & Felix Riesenberg<br /><i>Open Source Developers, Microsoft</i></small>
+                    <p><img data-src="assets/mslogo.png" /></p>
 				</section>
 
 				<section class="inverse">
@@ -68,7 +72,7 @@
 
 				<section data-background="assets/patternbg2.png" data-background-size="700px" data-background-repeat="repeat">
 					<section>
-						<h1>Apache Cordova</h1>
+						<h1>Apache Cordova <img data-src="assets/icons/cordova.png" style="border:none; vertical-align:bottom;" width="100px" /></h1>
 						<br />
 
 						<p><span class="fragment fade-in"><i class="fa fa-heart fa-fw"></i> 100% Shared Code</span></p>
@@ -79,10 +83,11 @@
 					<aside class="notes">
 						- consistent brand experience. truly one codebase
 						- almost any JS library is in play
+                        - platform for building natively installed mobile apps
 					</aside>	
 				</section>
 
-				<section>
+				<section data-background="assets/patternbg2.png" data-background-size="700px" data-background-repeat="repeat">
 					<section>
 						<h2>Who uses Apache Cordova?</h2>
 						<i class="fa fa-arrow-down fa-2x"></i>
@@ -106,18 +111,27 @@
 						<i class="fa fa-arrow-up"></i>
 						<h2>BBC Olympics</h2>
 						<img data-src="assets/icons/bbc.png" width="200px" />
+                        <br>
+                        <i class="fa fa-arrow-down"></i>
 					</section>
+                    <section>
+                        <i class="fa fa-arrow-up"></i>
+                        <h2>IGN</h2>
+                        <img data-src="assets/icons/ign.jpeg" width="200px" />
+                    </section>
 				</section>
 
 				<section>
 					<section>
-						<h2>Let's code!</h2>
-						<p><ol>
-							<li>Install Apache Cordova</li>
-							<li>Build an app</li>
-							<li>???</li>
-							<li>Profit!</li>
-						</ol></p>
+						<h1>Let's code!</h1>
+						<p>
+                            <ol>
+                                <li>Install Apache Cordova</li>
+                                <li>Build an app</li>
+                                <li>???</li>
+                                <li>Profit!</li>
+						    </ol>
+                        </p>
 
 						<br>
 						<i class="fa fa-arrow-down fa-2x"></i>
@@ -134,17 +148,122 @@
 					</section>
 
 					<section data-background="#ffffd0" data-background-transition="zoom">
-						<h2>Visual Studio Tools for <br>Apache Cordova</h2>
+						<h2>Visual Studio Tools <br /> for Apache Cordova</h2>
 					</section>
 				</section>
 
-			</div>
+                <section>
+                    <section>
+                        <h1>Plugins</h1>
 
-		</div>
+                        <br />
+                        <i class="fa fa-arrow-down fa-2x"></i>
+                    </section>
 
-		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+                    <section>
+                        <h1><i class="fa fa-mobile"></i></h1>
+                        <p class="fragment fade-in">
+                            <small id="deviceProperties"></small>
+                        </p>
+                    </section>
+
+                    <section>
+                        <h1><i class="fa fa-exclamation-triangle"></i></h1>
+                        <button onclick="window.alert('Hello');" style="font-size:75%">Click Me!</button>
+                    </section>
+
+                    <section>
+                        <h1><i class="fa fa-camera"></i></h1>
+                        <p><img id="photoCanvas" style="width: 200px; height: 200px;"/></p>
+                    </section>
+
+                    <section>
+                        <h2>...and many others!</h2>
+                    </section>
+                </section>
+
+                <section>
+                    <h1>Thanks <i class="fa fa-thumbs-o-up"></i></h1>
+                    <small>Write Once, Ship Everywhere!</small>
+
+                    <br />
+                    <br />
+                    <br />
+
+                    <small>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>References</th>
+                                    <th>URL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Talk (Web)</td>
+                                    <td>http://jpoon.github.io/Cordova-Reveal</td>
+                                <tr>
+                                <tr>
+                                    <td>Talk (Cordova)</td>
+                                    <td>www.github.com/jpoon/Cordova-Reveal-App</td>
+                                <tr>
+                                <tr>
+                                    <td>Visual Studio Tools for Apache Cordova</td>
+                                    <td>www.visualstudio.com/cordova-vs.aspx</td>
+                                <tr>
+                                <tr>
+                                    <td>Jason Poon</td>
+                                    <td>jason.poon@microsoft.com</td>
+                                <tr>
+                                <tr>
+                                    <td>Felix Rieseberg</td>
+                                    <td>felix.rieseberg@microsoft.com</td>
+                                <tr>
+                            </tbody>
+                        </table>
+                    </small>
+                </section>
+            </div>
+        </div>
+
+
+		<script src="../scripts/jquery-2.1.3.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 		<script src="js/pikestreet.js"></script>
+
+        <!-- Cordova reference, this is added to your app when it's built. -->
+        <script src="../cordova.js"></script>
+        <script src="../scripts/platformOverrides.js"></script>
+        <script src="../scripts/index.js"></script>
+        <script src="../scripts/camera.js"></script>
+
+        <script type="text/javascript" charset="utf-8">
+            document.addEventListener("deviceready", onDeviceReady, false);
+
+            function onDeviceReady() {
+                // notification
+                if (navigator.notification) {
+                    window.alert = function (message) {
+                        navigator.notification.alert(
+                            message,    // message
+                            null,       // callback
+                            'Cordova', // title
+                            'OK'        // buttonName
+                        );
+                    };
+                }
+
+                // device properties
+                var element = document.getElementById('deviceProperties');
+                element.innerHTML = 'Device Model: '    + device.model    + '<br />' +
+                                    'Device Cordova: '  + device.cordova  + '<br />' +
+                            'Device Platform: ' + device.platform + '<br />' +
+                            'Device UUID: '     + device.uuid     + '<br />' +
+                            'Device Version: '  + device.version  + '<br />';
+            }
+        </script>
 	</body>
 </html>
